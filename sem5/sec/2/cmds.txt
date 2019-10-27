@@ -1,0 +1,13 @@
+# hosty http
+tshark -r kfc.pcapng -T fields -e http.host|grep .|sort|uniq
+# hosty, gdzie sa
+tshark -r kfc.pcapng -T fields -e ip.dst|sort|uniq|xargs -n1 -I{} sh -c 'printf "%s\t" {}; geoiplookup {} | sed s/GeoIP\ Country\ Edition:\ //'|grep -v "can't"
+# statystyki tego gdzie sa hosty
+tshark -r kfc.pcapng -T fields -e ip.dst|sort|uniq|xargs -n1 -I{} sh -c 'printf "%s\t" {}; geoiplookup {} | sed s/GeoIP\ Country\ Edition:\ //'|grep -v "can't"|cut -f2|sort|uniq -c|sort -n|tac
+# protokoly
+tshark -r kfc.pcapng -T fields -e _ws.col.Protocol|sort|uniq -c|sort -n|tac
+# gety http
+tshark -r kfc.pcapng -T fields -e http.host -e _ws.col.Info|grep GET|sed -r 's/\s+GET\s+//'|sed -r 's/\s*HTTP\/1\.[01]//'|grep -vi 'tcp spurious retransmission'
+# lista urzadzen po dns
+tshark -r kfc.pcapng -T fields -e _ws.col.Protocol -e _ws.col.Source|grep ^DNS|sed -r s/DNS\\s+//|sort|uniq|grep 192|wc -l
+
