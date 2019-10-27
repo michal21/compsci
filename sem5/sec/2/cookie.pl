@@ -3,6 +3,8 @@
 use List::MoreUtils qw(uniq);
 use Data::Dumper;
 
+my $interface = 'lo';
+
 sub trim {
     my $s = shift;
     $s =~ s/^\s+|\s+$//g;
@@ -18,7 +20,7 @@ sub setcookie {
 if ($#ARGV < 0) {
     $SIG{INT} = sub { print "Stopping\n" };
     $fname = 'cap.pcapng';
-    `tshark -i lo -w cap.pcapng`;
+    `tshark -i $interface -w cap.pcapng`;
 } else {
     $fname = $ARGV[0];
 }
@@ -43,10 +45,10 @@ while (<PCAP>) {
 
 my @hosts = keys %cookies;
 @{$cookies{$_}} = uniq @{$cookies{$_}} for (@hosts);
+
 my $cmd = 'dialog --stdout --menu Host 0 0 0 ';
 
 for (my $i = 0; $i <= $#hosts; $i++) {
-    #print "$i: $hosts[$i]\n";
     my $n = scalar @{$cookies{$hosts[$i]}};
     $cmd .= "$i '$hosts[$i] - $n cookies' ";
 }
