@@ -35,7 +35,6 @@ while (<PCAP>) {
             }
             if ($l =~ /Cookie: ([^;]*)/) {
                 my $m = trim($1);
-                #print "Adding '$m' for '$host'\n";
                 push @{$cookies{$host}}, $m;
             }
         }
@@ -45,21 +44,24 @@ while (<PCAP>) {
 my @hosts = keys %cookies;
 @{$cookies{$_}} = uniq @{$cookies{$_}} for (@hosts);
 my $cmd = 'dialog --stdout --menu Host 0 0 0 ';
+
 for (my $i = 0; $i <= $#hosts; $i++) {
     #print "$i: $hosts[$i]\n";
     my $n = scalar @{$cookies{$hosts[$i]}};
     $cmd .= "$i '$hosts[$i] - $n cookies' ";
 }
+
 my $host = $hosts[`$cmd`];
-my @cks = @{$cookies{$host}}; # || die;
+my @cks = @{$cookies{$host}};
 my $cmd = 'dialog --stdout --checklist Cookie 0 0 0 ';
+
 for (my $i = 0; $i <= $#cks; $i++) {
     $cmd .= "$i '$cks[$i]' 0 ";
 }
+
 for (split / /, `$cmd`) {
     my ($hst, $prt) = split /:/, $host;
     my ($nam, $val) = split /=/, $cks[$_], 2;
-    #print "$nam, $val, $hst, $prt\n";
     setcookie($nam, $val, $hst, $prt);
 }
 
