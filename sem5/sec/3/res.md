@@ -1751,7 +1751,6 @@ nr |okrąg | różnica | \# nieważnych | ostatni | nie wszedł
 3	|Wrocław	|4 450	|5 572	|PSL	|PIS
 1	|Legnica	|5 242	|5 674	|PIS	|KON
 33	|Kielce	|6 192	|6 385	|PIS	|LEW
-
 # Rok 2015
 
 #1	Legnica	
@@ -3518,379 +3517,377 @@ nr |okrąg | różnica | \# nieważnych | ostatni | nie wszedł
 41	|Szczecin	|7 364	|10 386	|PIS	|PSL
 5	|Toruń	|7 988	|11 313	|PIS	|PO
 26	|Gdynia	|9 219	|13 526	|PIS	|PSL
-
 # Rok 2011
-
 Sect: Legnica
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  22912
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  22780
 Diff:  792
 
 Sect: Wałbrzych
-- Seats: 8
+Seats: 8
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  20473
 Lost:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  20177
 Diff:  296
 
 Sect: Wrocław
-- Seats: 14
+Seats: 14
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  27874
 Lost:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  26754
 Diff:  1120
 
 Sect: Bydgoszcz
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  26489
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  22705
 Diff:  26488
 
 Sect: Toruń
-- Seats: 13
+Seats: 13
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  22762
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  20097
 Diff:  18655
 
 Sect: Lublin
-- Seats: 15
+Seats: 15
 Last:  Komitet Wyborczy Ruch Palikota , scr:  27069
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  25363
 Diff:  11942
 
 Sect: Chełm
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  21001
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  20680
 Diff:  1926
 
 Sect: Zielona Góra
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  24100
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  21281
 Diff:  19733
 
 Sect: Łódź
-- Seats: 10
+Seats: 10
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  30186
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  28625
 Diff:  9366
 
 Sect: Piotrków Trybunalski
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Ruch Palikota , scr:  23010
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  22296
 Diff:  2142
 
 Sect: Sieradz
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  21841
 Lost:  Komitet Wyborczy Polskie Stronnictwo Ludowe , scr:  21335
 Diff:  1012
 
 Sect: Kraków I
-- Seats: 8
+Seats: 8
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  21417
 Lost:  Komitet Wyborczy Ruch Palikota , scr:  20551
 Diff:  866
 
 Sect: Kraków II
-- Seats: 14
+Seats: 14
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  28114
 Lost:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  27482
 Diff:  632
 
 Sect: Nowy Sącz
-- Seats: 10
+Seats: 10
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  20506
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  19452
 Diff:  4216
 
 Sect: Tarnów
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  22596
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  19172
 Diff:  13696
 
 Sect: Płock
-- Seats: 10
+Seats: 10
 Last:  Komitet Wyborczy Ruch Palikota , scr:  23175
 Lost:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  20798
 Diff:  2377
 
 Sect: Radom
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Ruch Palikota , scr:  22056
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  20759
 Diff:  6485
 
 Sect: Siedlce
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Ruch Palikota , scr:  23490
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  23321
 Diff:  1014
 
 Sect: Warszawa I
-- Seats: 20
+Seats: 20
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  45327
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  41549
 Diff:  45336
 
 Sect: Warszawa II
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  30353
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  29178
 Diff:  5875
 
 Sect: Opole
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  21913
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  20091
 Diff:  12754
 
 Sect: Krosno
-- Seats: 11
+Seats: 11
 Last:  Komitet Wyborczy Ruch Palikota , scr:  21044
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  19045
 Diff:  13993
 
 Sect: Rzeszów
-- Seats: 15
+Seats: 15
 Last:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  25649
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  24403
 Diff:  11214
 
 Sect: Białystok
-- Seats: 14
+Seats: 14
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  25444
 Lost:  Komitet Wyborczy Polskie Stronnictwo Ludowe , scr:  23669
 Diff:  3550
 
 Sect: Gdańsk
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  27388
 Lost:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  25542
 Diff:  1846
 
 Sect: Gdynia
-- Seats: 14
+Seats: 14
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  27530
 Lost:  Komitet Wyborczy Polskie Stronnictwo Ludowe , scr:  25485
 Diff:  2045
 
 Sect: Bielsko-Biała
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  26294
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  24538
 Diff:  7024
 
 Sect: Częstochowa
-- Seats: 7
+Seats: 7
 Last:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  23547
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  20476
 Diff:  9213
 
 Sect: Gliwice
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  23378
 Lost:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  21932
 Diff:  1446
 
 Sect: Rybnik
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  23704
 Lost:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  20908
 Diff:  2796
 
 Sect: Katowice
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  25704
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  24684
 Diff:  4080
 
 Sect: Sosnowiec
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  24106
 Lost:  Komitet Wyborczy Ruch Palikota , scr:  20752
 Diff:  6708
 
 Sect: Kielce
-- Seats: 16
+Seats: 16
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  21983
 Lost:  Komitet Wyborczy Polskie Stronnictwo Ludowe , scr:  21397
 Diff:  2344
 
 Sect: Elbląg
-- Seats: 8
+Seats: 8
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  20726
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  16580
 Diff:  20730
 
 Sect: Olsztyn
-- Seats: 10
+Seats: 10
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  21704
 Lost:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  19998
 Diff:  5118
 
 Sect: Kalisz
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Polskie Stronnictwo Ludowe , scr:  21639
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  20932
 Diff:  4242
 
 Sect: Konin
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  23931
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  20214
 Diff:  14868
 
 Sect: Piła
-- Seats: 9
+Seats: 9
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  25011
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  22645
 Diff:  11830
 
 Sect: Poznań
-- Seats: 10
+Seats: 10
 Last:  Komitet Wyborczy Sojusz Lewicy Demokratycznej , scr:  33764
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  31479
 Diff:  15995
 
 Sect: Koszalin
-- Seats: 8
+Seats: 8
 Last:  Komitet Wyborczy Prawo i Sprawiedliwość , scr:  22779
 Lost:  Komitet Wyborczy Platforma Obywatelska RP , scr:  19901
 Diff:  14390
 
 Sect: Szczecin
-- Seats: 12
+Seats: 12
 Last:  Komitet Wyborczy Platforma Obywatelska RP , scr:  25446
 Lost:  Komitet Wyborczy Ruch Palikota , scr:  22555
 Diff:  5782
 
-# Posumowania
-# Rok 2019
-139
-613
-660
-682
-871
-1104
-1129
-1257
-1276
-1453
-1592
-1656
-1820
-1909
-2104
-2618
-2823
-3157
-3745
-3967
-4369
-4450
-4855
-5242
-5285
-5539
-6192
-6202
-6392
-6556
-6794
-6892
-7011
-7975
-8154
-9016
-9489
-9583
-18145
-19156
-24854
-# Rok 2015
-54
-128
-210
-459
-602
-723
-955
-1173
-1246
-1349
-1356
-1408
-1409
-1793
-1853
-1892
-2077
-2092
-2292
-2398
-2879
-3495
-3526
-3694
-3741
-3853
-4404
-4454
-4619
-4960
-5195
-5252
-6455
-6581
-7343
-7364
-7988
-9219
-11655
-12141
-17042
-# Rok 2011
-296
-632
-792
-866
-1012
-1014
-1120
-1446
-1846
-1926
-2045
-2142
-2344
-2377
-2796
-3550
-4080
-4216
-4242
-5118
-5782
-5875
-6485
-6708
-7024
-9213
-9366
-11214
-11830
-11942
-12754
-13696
-13993
-14390
-14868
-15995
-18655
-19733
-20730
-26488
-45336
+# Podsumowania
+## Rok 2019
+- 139
+- 613
+- 660
+- 682
+- 871
+- 1104
+- 1129
+- 1257
+- 1276
+- 1453
+- 1592
+- 1656
+- 1820
+- 1909
+- 2104
+- 2618
+- 2823
+- 3157
+- 3745
+- 3967
+- 4369
+- 4450
+- 4855
+- 5242
+- 5285
+- 5539
+- 6192
+- 6202
+- 6392
+- 6556
+- 6794
+- 6892
+- 7011
+- 7975
+- 8154
+- 9016
+- 9489
+- 9583
+- 18145
+- 19156
+- 24854
+## Rok 2015
+- 54
+- 128
+- 210
+- 459
+- 602
+- 723
+- 955
+- 1173
+- 1246
+- 1349
+- 1356
+- 1408
+- 1409
+- 1793
+- 1853
+- 1892
+- 2077
+- 2092
+- 2292
+- 2398
+- 2879
+- 3495
+- 3526
+- 3694
+- 3741
+- 3853
+- 4404
+- 4454
+- 4619
+- 4960
+- 5195
+- 5252
+- 6455
+- 6581
+- 7343
+- 7364
+- 7988
+- 9219
+- 11655
+- 12141
+- 17042
+## Rok 2011
+- 296
+- 632
+- 792
+- 866
+- 1012
+- 1014
+- 1120
+- 1446
+- 1846
+- 1926
+- 2045
+- 2142
+- 2344
+- 2377
+- 2796
+- 3550
+- 4080
+- 4216
+- 4242
+- 5118
+- 5782
+- 5875
+- 6485
+- 6708
+- 7024
+- 9213
+- 9366
+- 11214
+- 11830
+- 11942
+- 12754
+- 13696
+- 13993
+- 14390
+- 14868
+- 15995
+- 18655
+- 19733
+- 20730
+- 26488
+- 45336

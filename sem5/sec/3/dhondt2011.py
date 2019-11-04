@@ -3,7 +3,7 @@ import csv
 
 
 def lastlost(seats, parties):
-    print("- Seats:", seats)
+    print("Seats:", seats)
     parties = parties.copy()
     lastscr = 0
     
