@@ -1,0 +1,2 @@
+#!/bin/sh
+grep localdomain text|awk '{print$2}'|sed 's|\(.*\)|https://edukacja.pwr.wroc.pl/EdukacjaWeb/DesignPortalu/\1|'|xargs -n1 wget
