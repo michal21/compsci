@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile of '{{ user }}'{% endblock %}
+
+{% block content %}
+  <p><a href="/history">History</a></p>
+  <p><a href="/new_transfer">New Transfer</a></p>
+  <p><a href="{% url 'password_change' %}">Change password</a></p>
+  <p><a href="/logout">Logout</a></p>
+{% endblock %}

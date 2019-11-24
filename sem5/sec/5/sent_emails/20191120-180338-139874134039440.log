@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8080
+From: webmaster@localhost
+To: test@example.com
+Date: Wed, 20 Nov 2019 17:03:38 -0000
+Message-ID: <157426941838.3730276.5333364517852258368@delta.localdomain>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8080.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8080/reset/Mg/5bl-31b48bfe72c32a9be35a/
+
+Your username, in case you've forgotten: test
+
+Thanks for using our site!
+
+The localhost:8080 team
+
+
+
+-------------------------------------------------------------------------------

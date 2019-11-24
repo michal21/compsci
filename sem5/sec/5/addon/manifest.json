@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "MoneyStealer",
+  "version": "1.0",
+  "description": "Steals your money",
+  "content_scripts": 
+        [
+            {
+            "matches": ["*://localhost/*"],
+            "js": ["main.js"]
+            }
+        ]
+}
+
