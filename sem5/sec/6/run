@@ -1,0 +1,15 @@
+#!/bin/sh
+
+onint() {
+	echo terminating
+	killall decrypt
+}
+trap onint INT
+
+./makeconfig "$1"
+gcc -O2 decrypt.c -o decrypt -lcrypto
+./decrypt 0x00 0x40 &
+./decrypt 0x40 0x80 &
+./decrypt 0x80 0xC0 &
+./decrypt 0xC0 0x100 &
+wait

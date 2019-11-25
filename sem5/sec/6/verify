@@ -1,0 +1,6 @@
+#!/bin/bash
+
+. "./$1"
+
+openssl aes-256-cbc -d -a -base64 -K "$2" -iv "$IV" <<< "$CIPHER"
+
