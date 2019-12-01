@@ -10,7 +10,7 @@ static byte plain[512];
 static EVP_CIPHER_CTX *ctx;
 static int cipherlen;
 
-void print_string(int current_len, int len) {
+void decrypt(int current_len, int len) {
     if (current_len == len) {
         int plainlen, flen;
         EVP_CIPHER_CTX_init(ctx);
@@ -43,7 +43,7 @@ void print_string(int current_len, int len) {
     } else {
         for (int i = 0; i < 256; i++) {
             key[current_len] = i;
-            print_string(current_len + 1, len);
+            decrypt(current_len + 1, len);
         }
     }
 }
@@ -56,14 +56,14 @@ int main(int argc, char *argv[]) {
 
     int min = strtol(argv[1], NULL, 0), max = strtol(argv[2], NULL, 0);
 
-    printf("%d\n", ARRAY_SIZE(key));
+    //printf("%d\n", ARRAY_SIZE(key));
     ctx = EVP_CIPHER_CTX_new();
     cipherlen = strlen(cipher);
 
     for (int i = min; i < max; i++) {
         //printf("prefix = %02x\n", i);
         key[0] = i;
-        print_string(1, IGNORE);
+        decrypt(1, IGNORE);
     }
 
     return 0;
