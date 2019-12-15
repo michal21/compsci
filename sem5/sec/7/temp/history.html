@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}History{% endblock %}
+
+{% block content %}
+	<table border="1">
+		<tr>
+			<th>To</th>
+			<th>Title</th>
+			<th>Amount</th>
+		</tr>
+	{% for t in transfers %}
+		<tr>
+			<td>{{ t.to }}</td>
+			<td>{{ t.title }}</td>
+			<td>{{ t.amnt }}</td>
+		</tr>
+	{% endfor %}
+	</table>
+
+	<p><a href="/profile">Go back<a></p>
+{% endblock %}

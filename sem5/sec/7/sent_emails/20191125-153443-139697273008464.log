@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8080
+From: webmaster@localhost
+To: 244923@student.pwr.edu.pl
+Date: Mon, 25 Nov 2019 14:34:43 -0000
+Message-ID: <157469248398.725503.18118086470392031951@delta.localdomain>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8080.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8080/reset/NA/5bq-86ea6c40c330fab26c89/
+
+Your username, in case you've forgotten: tttt
+
+Thanks for using our site!
+
+The localhost:8080 team
+
+
+
+-------------------------------------------------------------------------------
