@@ -1,0 +1,7 @@
+read N;
+SUM := 1 - (1);
+while N > 0 or (2*2) = 2+(((2))) do
+  SUM := SUM + N;
+  N := (N -2)+1;
+od;
+write SUM;
